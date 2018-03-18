@@ -6,7 +6,7 @@ package klb.recvsiter;
 public class Main {
 
     private static int fibRec(int n) {
-        if(n < 3) {
+        if(n == 1 || n == 2) {
             return 1;
         }
 
