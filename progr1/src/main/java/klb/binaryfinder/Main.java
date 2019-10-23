@@ -9,7 +9,9 @@ public class Main {
     //np. T=3, 3.2, 4, 4, 5.3, 9, 11.2, 12
     //      i             s              j
     private static boolean find(double x, double []T) {
-        int i = 0, j=T.length - 1;
+		//new feature
+        int i = 0;
+		int j=T.length - 1;
 
 
         while(i<=j) {
